@@ -1,8 +1,8 @@
 site_name: 'Zen Onboarding 90-Day Plan'
 site_description: 'A culturally respectful, structured 90-day phased introduction to foundational Zen-inspired practice with sustainable habit formation.'
-site_url: 'https://example.com'
-repo_url: 'https://github.com/example/zen-plan'
-repo_name: 'zen-plan'
+site_url: 'https://sfboss.github.io/generated_plan_zen_ease_into_plan/docs'
+repo_url: 'https://github.com/sfboss/generated_plan_zen_ease_into_plan'
+repo_name: 'generated_plan_zen_ease_into_plan'
 copyright: '© 2025 Zen Practice Educational Resource'
 
 theme:
