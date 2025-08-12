@@ -1,0 +1,107 @@
+:root {
+    --md-primary-fg-color: #4d6f6a;
+    --md-accent-fg-color: #d6a648;
+}
+
+/* Phase badge styling */
+.badge-phase {
+    display: inline-block;
+    padding: 2px 6px;
+    margin: 0 4px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    border-radius: 4px;
+    background: var(--md-primary-fg-color);
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.badge-phase.phase-01 {
+    background: #5d837d;
+}
+.badge-phase.phase-02 {
+    background: #4d6f6a;
+}
+.badge-phase.phase-03 {
+    background: #3e5a56;
+}
+.badge-phase.phase-04 {
+    background: #2f4442;
+}
+.badge-phase.phase-05 {
+    background: #20302f;
+}
+
+.phase-banner {
+    padding: 0.85rem 1rem;
+    border-left: 6px solid var(--md-accent-fg-color);
+    background: #f5f3ef;
+    margin: 1rem 0 2rem;
+    font-weight: 500;
+}
+[data-md-color-scheme='slate'] .phase-banner {
+    background: #22302e;
+}
+
+/* Admonition tweaks */
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: 6px;
+}
+.md-typeset .admonition > .admonition-title {
+    font-weight: 600;
+}
+
+/* Tag list enhancements */
+.tag-cloud a {
+    text-decoration: none;
+    padding: 4px 8px;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 4px;
+    background: #e0ecea;
+    font-size: 0.65rem;
+    font-weight: 500;
+}
+[data-md-color-scheme='slate'] .tag-cloud a {
+    background: #2e3d3b;
+}
+
+/* Table alt styling */
+.alt-table {
+    font-size: 0.8rem;
+}
+.alt-table code {
+    background: transparent;
+}
+
+/* Responsive day nav */
+.day-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 1rem;
+    font-size: 0.8rem;
+}
+.day-nav a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Metric badge */
+.metric-badge {
+    background: #d6a648;
+    color: #fff;
+    padding: 2px 6px;
+    margin-right: 6px;
+    border-radius: 12px;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+/* Accessibility helpers */
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}

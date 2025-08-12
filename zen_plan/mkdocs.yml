@@ -1,0 +1,121 @@
+site_name: 'Zen Onboarding 90-Day Plan'
+site_description: 'A culturally respectful, structured 90-day phased introduction to foundational Zen-inspired practice with sustainable habit formation.'
+site_url: 'https://example.com'
+repo_url: 'https://github.com/example/zen-plan'
+repo_name: 'zen-plan'
+copyright: '© 2025 Zen Practice Educational Resource'
+
+theme:
+    name: material
+    language: en
+    font:
+        text: Inter
+        code: JetBrains Mono
+    logo: material/meditation
+    favicon: assets/favicon.png
+    features:
+        - navigation.sections
+        - navigation.tabs
+        - navigation.top
+        - content.code.copy
+        - content.action.edit
+        - content.tabs.link
+        - search.highlight
+        - search.suggest
+    palette:
+        - scheme: default
+          primary: teal
+          accent: amber
+          toggle:
+              icon: material/weather-night
+              name: Switch to dark mode
+        - scheme: slate
+          primary: teal
+          accent: amber
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to light mode
+    icon:
+        repo: fontawesome/brands/github
+
+plugins:
+    - search
+    - tags
+    - mkdocs_macros
+    - glightbox
+
+markdown_extensions:
+    - admonition
+    - def_list
+    - footnotes
+    - attr_list
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.mark
+    - pymdownx.inlinehilite
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.tilde
+    - pymdownx.smartsymbols
+    - pymdownx.keys
+
+extra:
+    social:
+        - icon: fontawesome/solid/book
+          link: https://example.com
+        - icon: fontawesome/brands/github
+          link: https://github.com/example
+    tags:
+        enabled: true
+
+extra_css:
+    - stylesheets/extra.css
+
+nav:
+    - Home: index.md
+    - Getting Started:
+          - getting-started/welcome.md
+          - getting-started/safety-wellbeing.md
+          - getting-started/how-to-use-this-plan.md
+          - getting-started/glossary.md
+          - getting-started/posture-and-breath.md
+          - getting-started/etiquette.md
+          - getting-started/schools-of-zen.md
+    - Foundations:
+          - foundations/core-practices.md
+          - foundations/daily-structure-template.md
+          - foundations/habit-formation.md
+          - foundations/tracking-metrics.md
+          - foundations/frequently-asked-questions.md
+    - Plan:
+          - plan/phases-overview.md
+          - plan/phase-01-orientation-days-01-07.md
+          - plan/phase-02-stabilization-days-08-21.md
+          - plan/phase-03-deepening-days-22-45.md
+          - plan/phase-04-integration-days-46-60.md
+          - plan/phase-05-expansion-days-61-90.md
+    - Daily Pages:
+          - days/day01.md
+          - days/day02.md
+          - days/day03.md
+    - Reflection:
+          - reflection/weekly-reviews.md
+          - reflection/journaling-prompts.md
+          - reflection/obstacles-and-adaptations.md
+    - Enrichment:
+          - enrichment/historical-context.md
+          - enrichment/cultural-respect.md
+          - enrichment/comparative-practices.md
+          - enrichment/recommended-resources.md
+          - enrichment/koan-primer.md
+    - Tags: tag-index/index.md
+    - Meta:
+          - meta/roadmap.md
+          - meta/methodology.md
