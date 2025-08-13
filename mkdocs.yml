@@ -1,8 +1,9 @@
 site_name: 'Zen Onboarding 90-Day Plan'
 site_description: 'A culturally respectful, structured 90-day phased introduction to foundational Zen-inspired practice with sustainable habit formation.'
-site_url: 'https://sfboss.github.io/generated_plan_zen_ease_into_plan/docs'
+site_url: 'https://sfboss.github.io/generated_plan_zen_ease_into_plan/'
 repo_url: 'https://github.com/sfboss/generated_plan_zen_ease_into_plan'
 repo_name: 'generated_plan_zen_ease_into_plan'
+edit_uri: 'edit/main/docs/'
 copyright: '© 2025 Zen Practice Educational Resource'
 
 theme:
@@ -12,7 +13,6 @@ theme:
         text: Inter
         code: JetBrains Mono
     logo: material/meditation
-    favicon: assets/favicon.png
     features:
         - navigation.sections
         - navigation.tabs
@@ -41,7 +41,7 @@ theme:
 plugins:
     - search
     - tags
-    - mkdocs_macros
+    - macros
     - glightbox
 
 markdown_extensions:
@@ -52,8 +52,7 @@ markdown_extensions:
     - pymdownx.superfences
     - pymdownx.tabbed
     - pymdownx.details
-    - pymdownx.emoji:
-          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.emoji
     - pymdownx.tasklist:
           custom_checkbox: true
     - pymdownx.arithmatex:
@@ -77,6 +76,10 @@ extra:
 
 extra_css:
     - stylesheets/extra.css
+
+# Uncomment if using math:
+# extra_javascript:
+#   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
 
 nav:
     - Home: index.md
@@ -105,6 +108,8 @@ nav:
           - days/day01.md
           - days/day02.md
           - days/day03.md
+          - days/day30.md
+          - days/day75.md
     - Reflection:
           - reflection/weekly-reviews.md
           - reflection/journaling-prompts.md
