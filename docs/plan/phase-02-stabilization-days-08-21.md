@@ -72,4 +72,4 @@ Walking integration echoes monastic alternation patterns (sitting-walking cycles
 
 ---
 
-Continue with **[Day 08](../days/day08.md)** or review upcoming **[Phase 03](phase-03-deepening-days-22-45.md)**.
+Continue with the daily practice routine or review upcoming **[Phase 03](phase-03-deepening-days-22-45.md)**.
