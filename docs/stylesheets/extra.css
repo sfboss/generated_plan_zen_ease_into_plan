@@ -3,6 +3,21 @@
     --md-accent-fg-color: #d6a648;
 }
 
+/* Hero image styling */
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+[data-md-color-scheme='slate'] .hero-image {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 /* Phase badge styling */
 .badge-phase {
     display: inline-block;

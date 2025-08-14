@@ -8,6 +8,8 @@ difficulty: starter
 
 # Welcome :seedling:
 
+![Zen meditation scene with cushion and peaceful atmosphere](assets/images/image.png){ .hero-image }
+
 > A calm, sustainable introduction—rooted in tradition, adapted for modern life.
 
 ## Value Proposition
