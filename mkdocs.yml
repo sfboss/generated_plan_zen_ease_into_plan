@@ -14,6 +14,7 @@ theme:
         code: JetBrains Mono
     logo: assets/images/logo.svg
     features:
+        - navigation.instant
         - navigation.sections
         - navigation.tabs
         - navigation.top
@@ -110,6 +111,18 @@ nav:
           - days/day03.md
           - days/day30.md
           - days/day75.md
+    - Presentations:
+          - presentations/index.md
+          - presentations/posture-foundations.html
+          - presentations/breath-awareness.html
+          - presentations/walking-meditation.html
+          - presentations/mindful-daily-life.html
+          - presentations/zen-philosophy-intro.html
+          - 'Zen Foundations (Marp)': presentations/marp1-zen-foundations.html
+          - 'Breath Awareness (Marp)': presentations/marp2-breath-awareness.html
+          - 'Walking Meditation (Marp)': presentations/marp3-walking-meditation.html
+          - 'Mindful Daily Life (Marp)': presentations/marp4-mindful-daily-life.html
+          - 'Zen Philosophy (Marp)': presentations/marp5-zen-philosophy.html
     - Reflection:
           - reflection/weekly-reviews.md
           - reflection/journaling-prompts.md
