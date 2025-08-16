@@ -15,9 +15,13 @@ theme:
     logo: assets/images/logo.svg
     features:
         - navigation.instant
+        - navigation.tracking
+        - navigation.path
         - navigation.sections
         - navigation.tabs
         - navigation.top
+        - navigation.footer
+        - toc.follow
         - content.code.copy
         - content.action.edit
         - content.tabs.link
@@ -44,6 +48,9 @@ plugins:
     - tags
     - macros
     - glightbox
+    - git-revision-date-localized:
+          type: date
+    - awesome-pages
 
 markdown_extensions:
     - admonition
@@ -95,6 +102,7 @@ nav:
     - Foundations:
           - foundations/core-practices.md
           - foundations/daily-structure-template.md
+          - foundations/daily-practice-template.md
           - foundations/habit-formation.md
           - foundations/tracking-metrics.md
           - foundations/frequently-asked-questions.md
@@ -105,12 +113,24 @@ nav:
           - plan/phase-03-deepening-days-22-45.md
           - plan/phase-04-integration-days-46-60.md
           - plan/phase-05-expansion-days-61-90.md
-    - Daily Pages:
-          - days/day01.md
-          - days/day02.md
-          - days/day03.md
-          - days/day30.md
-          - days/day75.md
+    - Daily Practice:
+          - '90-Day Calendar': days/index.md
+          - 'Visual Calendar': days/visual-calendar.md
+          - 'Phase 1 - Foundation':
+                - days/day01.md
+                - days/day02.md
+                - days/day03.md
+                - days/day04.md
+                - days/day07.md
+          - 'Phase 2 - Stabilization':
+                - days/day08.md
+                - days/day21.md
+          - 'Phase 3 - Deepening':
+                - days/day30.md
+                - days/day45.md
+          - 'Phase 5 - Expansion':
+                - days/day75.md
+                - days/day90.md
     - Presentations:
           - presentations/index.md
           - presentations/posture-foundations.html

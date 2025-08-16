@@ -70,4 +70,4 @@ If anxiety emerges with broadened field, narrow anchor and lengthen exhale sligh
 
 We refine mindful daily task granularity—translating widened attention into tactile detail.
 
-<div class="day-nav">Prev: [Day 29](day29.md) | Next: [Day 31](day31.md)</div>
+<div class="day-nav">Prev: [Day 21 - Phase 2 Complete](day21.md) | Next: [Day 45 - Phase 3 Complete](day45.md) | [Phase 3 Overview](../plan/phase-03-deepening-days-22-45.md)</div>

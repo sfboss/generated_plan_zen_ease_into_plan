@@ -1,79 +1,52 @@
-# Zen Onboarding 90-Day Plan
+# Zen Practice: 90-Day Journey
 
-A culturally respectful, structured 90-day phased introduction to foundational Zen-inspired practice with sustainable habit formation.
+A comprehensive, culturally respectful 90-day structured introduction to foundational Zen-inspired meditation and mindfulness practices, designed for sustainable habit formation and lasting transformation.
 
 ## 🌐 Live Site
 
-Visit the live documentation at: [https://sfboss.github.io/generated_plan_zen_ease_into_plan/](https://sfboss.github.io/generated_plan_zen_ease_into_plan/)
+**[Access the Complete Guide →](https://sfboss.github.io/generated_plan_zen_ease_into_plan/)**
 
-## 🚀 Deployment
+## ✨ What This Offers
 
-This site is automatically deployed to GitHub Pages using GitHub Actions whenever changes are pushed to the `main` branch.
+-   **90-Day Structured Journey**: Five progressive phases from orientation to integration
+-   **Daily Guidance**: Detailed practices for key milestones plus template system for all 90 days
+-   **Visual Progress Tracking**: Interactive calendar and phase-based navigation
+-   **Cultural Respect**: Authentic approach honoring Zen traditions while remaining accessible
+-   **Practical Integration**: Real-world application with habit formation strategies
 
-### Local Development
+## 🚀 Technical Implementation
 
-1. Install Python dependencies:
+Automatically deployed to GitHub Pages via GitHub Actions. No manual deployment needed.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+## 📁 Content Structure
 
-2. Serve the site locally:
+### Five-Phase Journey
 
-    ```bash
-    mkdocs serve
-    ```
+-   **Phase 1 (Days 1-7)**: Orientation - Foundation building
+-   **Phase 2 (Days 8-21)**: Stabilization - Habit establishment
+-   **Phase 3 (Days 22-45)**: Deepening - Practice expansion
+-   **Phase 4 (Days 46-60)**: Integration - Daily life application
+-   **Phase 5 (Days 61-90)**: Expansion - Advanced techniques
 
-3. Build the site:
-    ```bash
-    mkdocs build
-    ```
+### Key Features
 
-### GitHub Pages Setup
+-   **Daily Practice Pages**: Detailed guidance for milestone days (1, 2, 3, 4, 7, 8, 21, 30, 45, 75, 90)
+-   **Template System**: Universal daily structure for all 90 days
+-   **Visual Calendar**: Interactive grid showing complete journey
+-   **Comprehensive Resources**: Foundational concepts, cultural context, and practical tools
+-   **Reflection Tools**: Journaling prompts, weekly reviews, progress tracking
 
-The site is configured for automatic deployment via GitHub Actions:
+## 🛠️ Built With
 
-1. **GitHub Actions Workflow**: `.github/workflows/static.yml` handles the build and deployment
-2. **MkDocs Configuration**: `mkdocs.yml` contains all site settings
-3. **Dependencies**: `requirements.txt` lists all Python packages needed
+-   **MkDocs Material**: Modern documentation framework
+-   **GitHub Pages**: Reliable hosting and deployment
+-   **GitHub Actions**: Automated CI/CD pipeline
+-   **Custom CSS**: Enhanced visual design and interactive elements
 
-The workflow automatically:
+## � Documentation Quality
 
--   Installs Python and dependencies
--   Builds the MkDocs site
--   Deploys to GitHub Pages
-
-## 📁 Project Structure
-
-```
-docs/                    # Documentation source files
-├── index.md            # Homepage
-├── getting-started/    # Introduction materials
-├── foundations/        # Core practice information
-├── plan/              # 90-day plan phases
-├── days/              # Daily practice pages
-├── reflection/        # Review and journaling
-├── enrichment/        # Additional resources
-├── meta/              # Project metadata
-└── stylesheets/       # Custom CSS
-
-mkdocs.yml              # MkDocs configuration
-requirements.txt        # Python dependencies
-.github/workflows/      # GitHub Actions deployment
-```
-
-## 🛠️ Technical Details
-
--   **Framework**: MkDocs with Material theme
--   **Hosting**: GitHub Pages
--   **CI/CD**: GitHub Actions
--   **Python**: 3.x with Material for MkDocs extensions
-
-## 📝 Contributing
-
-1. Fork the repository
-2. Make your changes in the `docs/` directory
-3. Test locally with `mkdocs serve`
-4. Submit a pull request
-
-Changes will be automatically deployed once merged to the main branch.
+-   Comprehensive guide with 25+ pages of structured content
+-   Interactive navigation with tabbed and grid calendar views
+-   Mobile-responsive design for practice on any device
+-   Search functionality and organized tag system
+-   Cultural sensitivity and authentic approach to Zen practice

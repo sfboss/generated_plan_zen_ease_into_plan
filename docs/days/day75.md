@@ -70,4 +70,4 @@ If compassion work surfaces grief, allow gentle tears; ground with sensation lab
 
 We rehearse resilience toolkit for potential schedule disruptions.
 
-<div class="day-nav">Prev: [Day 74](day74.md) | Next: [Day 76](day76.md)</div>
+<div class="day-nav">Prev: [Day 45 - Phase 3 Complete](day45.md) | Next: [Day 90 - Journey Complete](day90.md) | [Phase 5 Overview](../plan/phase-05-expansion-days-61-90.md)</div>
